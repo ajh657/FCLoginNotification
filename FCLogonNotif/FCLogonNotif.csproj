@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-  <Import Project="Dalamud.Plugin.Bootstrap.targets"/>
+  <Import Project="Dalamud.Plugin.Bootstrap.targets" />
 
   <PropertyGroup>
     <Version>0.0.0.1</Version>
@@ -16,4 +16,14 @@
       <Visible>false</Visible>
     </Content>
   </ItemGroup>
+
+  <ItemGroup>
+    <None Update="FCLogonNotif.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Update="DalamudPackager" Version="2.1.13" />
+	</ItemGroup>
 </Project>

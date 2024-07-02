@@ -1,0 +1,12 @@
+{
+  "Author": "ajh657",
+  "Name": "FCLogonNotif",
+  "Punchline": "When FC mates login",
+  "Description": "Notifes when fc members login",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "sample",
+    "plugin",
+    "goats"
+  ]
+}
